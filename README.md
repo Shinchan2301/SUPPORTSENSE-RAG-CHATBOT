@@ -1,29 +1,36 @@
-# SupportSense RAG Chatbot
+# 🚀 SupportSense RAG Chatbot
 
-A beginner-friendly Retrieval-Augmented Generation (RAG) chatbot built using open-source and free tools.
+A beginner-friendly **Retrieval-Augmented Generation (RAG)** chatbot built using open-source and free tools.
 
-Features
+---
 
-- Loads a public conversation dataset
-- Cleans and preprocesses text data
-- Creates embeddings using Sentence Transformers
-- Stores vectors in ChromaDB
-- Retrieves relevant records for a user query
-- Generates grounded answers using a local Ollama model
-- Provides a simple Streamlit UI
+## ✨ Features
 
-Tech Stack
+- Loads a public conversation dataset  
+- Cleans and preprocesses text data  
+- Creates embeddings using Sentence Transformers  
+- Stores vectors in ChromaDB  
+- Retrieves relevant records for a user query  
+- Generates grounded answers using a local Ollama model  
+- Provides a simple Streamlit UI  
 
-- Python
-- Streamlit
-- Pandas
-- Sentence Transformers
-- ChromaDB
-- Ollama
-- Qwen2.5 3B
+---
 
-Project Structure
+## 🛠️ Tech Stack
 
+- Python  
+- Streamlit  
+- Pandas  
+- Sentence Transformers  
+- ChromaDB  
+- Ollama  
+- Qwen2.5 3B  
+
+---
+
+## 📂 Project Structure
+
+```text
 supportsense-rag-chatbot/
 ├── app.py
 ├── README.md
@@ -38,30 +45,4 @@ supportsense-rag-chatbot/
     ├── preprocess.py
     ├── build_index.py
     ├── retrieve.py
-    └── generate.py
-
-Setup Instructions
-1. Create a virtual environment
-python -m venv .venv
-2. Activate it
-.venv\Scripts\activate
-3. Install dependencies
-pip install -r requirements.txt
-4. Add dataset
-Place your CSV file inside:
-data/raw/sample_conversations.csv
-5. Preprocess data
-py src/preprocess.py
-6. Build vector database
-py src/build_index.py
-7. Run the app
-streamlit run app.py
-
-Example Questions
-1. What kind of risky conversation patterns are present?
-2. What are common opening messages?
-3. Summarize location-related questions.
-4. What sentiment patterns appear in the dataset?
-
-Notes
-This project uses a public sample dataset for learning purposes and does not use any private or proprietary data.
+    └── generate.py for learning purposes and does not use any private or proprietary data.
