@@ -1,0 +1,27 @@
+Date & Time,Text File ID,Speaker ID,PRICE,Transcription,Notes,Category,Intent,Sentiment Category,Sentiment Score,"User Risk Flag
+
+","Risk Type
+
+","Intervention Triggered
+
+","Escalation Level
+
+","Block Required
+
+","Recovery Potential
+
+","Chat Phase
+
+","Automation Confidence
+
+"
+15/11/24 12:51,chat001,J - time-waster case study template ,0,"hey, it’s J",casual opener,Icebreaker,Greet,Neutral,0.5,No,None,None,1,No,Yes,Icebreaker,100%
+15/11/24 12:58,chat002,Ro ,0,hey! where are you where you based at the moment hun,friendly question,Icebreaker,Location Check,Positive,0.7,No,None,None,1,No,Yes,Icebreaker,100%
+15/11/24 12:59,chat003,J - time-waster case study template ,0,CT... why?,neutral response,Icebreaker,Answer,Neutral,0.5,No,None,None,1,No,Yes,Icebreaker,100%
+15/11/24 12:59,chat004,Ro ,0,i thought you weren’t in ct for some reason not sure why lol big day ahead?,light banter,Icebreaker,Conversation Starter,Positive,0.7,No,None,None,1,No,Yes,Icebreaker,100%
+15/11/24 12:59,chat005,J - time-waster case study template ,0,wait.. where are you?,clarifying,Icebreaker,Location Check,Neutral,0.5,No,None,None,1,No,Yes,Icebreaker,100%
+15/11/24 13:00,chat006,Ro ,0,i live in akl but visiting my family in tt for a couple months,informative,Icebreaker,Share Info,Positive,0.7,No,None,None,1,No,Yes,Icebreaker,100%
+15/11/24 13:01,chat007,J - time-waster case study template ,0,"oh true.. haha.. it's 5am here, i'm still working",casual small talk,Icebreaker,Small Talk,Positive,0.7,No,None,None,1,No,Yes,Icebreaker,100%
+15/11/24 13:01,chat008,J - time-waster case study template ,0,when are you coming back to cc?,conversation progression,Icebreaker,Future Planning,Positive,0.6,No,None,None,1,No,Yes,Icebreaker,100%
+15/11/24 23:06,chat009,J - time-waster case study template ,0,?,mild impatience,Icebreaker,Push for Response,Neutral,0.4,Yes,Boundary Pusher,None,2,No,Yes,Icebreaker,90%
+16/11/24 12:13,chat010,Ro,0,hi probably in a couple months or so.,polite update,Meet-up Deflection,Delay Info,Positive,0.7,No,None,None,1,No,Yes,Meet-up Deflection,100%
