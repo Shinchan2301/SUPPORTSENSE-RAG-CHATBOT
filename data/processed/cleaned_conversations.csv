@@ -1,0 +1,11 @@
+text,notes,category,intent,sentiment,sentiment_score,user_risk_flag,risk_type,intervention_triggered,escalation_level,block_required,recovery_potential,chat_phase,automation_confidence
+"hey, it’s J",casual opener,Icebreaker,Greet,Neutral,0.5,No,,,1,No,Yes,Icebreaker,100%
+hey! where are you where you based at the moment hun,friendly question,Icebreaker,Location Check,Positive,0.7,No,,,1,No,Yes,Icebreaker,100%
+CT... why?,neutral response,Icebreaker,Answer,Neutral,0.5,No,,,1,No,Yes,Icebreaker,100%
+i thought you weren’t in ct for some reason not sure why lol big day ahead?,light banter,Icebreaker,Conversation Starter,Positive,0.7,No,,,1,No,Yes,Icebreaker,100%
+wait.. where are you?,clarifying,Icebreaker,Location Check,Neutral,0.5,No,,,1,No,Yes,Icebreaker,100%
+i live in akl but visiting my family in tt for a couple months,informative,Icebreaker,Share Info,Positive,0.7,No,,,1,No,Yes,Icebreaker,100%
+"oh true.. haha.. it's 5am here, i'm still working",casual small talk,Icebreaker,Small Talk,Positive,0.7,No,,,1,No,Yes,Icebreaker,100%
+when are you coming back to cc?,conversation progression,Icebreaker,Future Planning,Positive,0.6,No,,,1,No,Yes,Icebreaker,100%
+?,mild impatience,Icebreaker,Push for Response,Neutral,0.4,Yes,Boundary Pusher,,2,No,Yes,Icebreaker,90%
+hi probably in a couple months or so.,polite update,Meet-up Deflection,Delay Info,Positive,0.7,No,,,1,No,Yes,Meet-up Deflection,100%
